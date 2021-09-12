@@ -47,9 +47,13 @@ async def on_message(message):
     #similarly you add more commands just add more elif statements like below 
     elif "somecommand" == message.content.lower():
         await message.channel.send("Some message")
-      
-
+ 
+#the below statement will be responsible for running our bot. to run the bot if you are on python idle click on run and then click on  run again.your bot will be running now so go ahead try using you commands with your bot.                                  
+client.run(token)
+                                   
+                                   
+                                   
 #if you want to see an actual application on a discord bot see example.py in the my github repository from where you downloaded beginner.py it contains an example of a bot that
 # provides information regarding cutoff and syllabus and information regarding Manipal University Bangalore. fyi im a btech student from there. 
         
-client.run(token)
+
