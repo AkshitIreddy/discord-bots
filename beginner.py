@@ -14,7 +14,7 @@ token =
 
 #BEFORE RUNNING THIS PROGRAM ADD A TOKEN ABOVE
 
-#if you don't know how to code just go to MAIN
+#if you don't know how to code just go to MAIN which is below in this code
 
 #Client intialised
 
@@ -32,7 +32,7 @@ async def on_message(message):
     print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
 
 
-# MAIN MAIN MAIN
+########################## MAIN MAIN MAIN ################################################# 
 #The main part of the program
 @client.event
 async def on_message(message):
