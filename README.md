@@ -1,5 +1,5 @@
 # Make-discord-bots-instantly
- You can use this code to make discord bots instantly just add command word and what the command will do that's it.
+ You can use this code to make discord bots instantly just add command word and what the command will do and that's it.
 
 You might not know how to code but dont worry its not that difficult.
 
