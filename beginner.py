@@ -49,6 +49,7 @@ async def on_message(message):
         await message.channel.send("Some message")
       
 
-
+#if you want to see an actual application on a discord bot see example.py in the my github repository from where you downloaded beginner.py it contains an example of a bot that
+# provides information regarding cutoff and syllabus and information regarding Manipal University Bangalore. fyi im a btech student from there. 
         
 client.run(token)
