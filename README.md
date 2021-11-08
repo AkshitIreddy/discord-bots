@@ -1,9 +1,6 @@
 # discord-bot
- You can use this code to make discord bots instantly just add command word and what the command will do and that's it.
 
-You might not know how to code but dont worry its not that difficult.
-
-before doing any of this first pip install discord.py
+First pip install discord.py
 link on tutorial :  https://pypi.org/project/discord.py/
 
 1. make a discord account
