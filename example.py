@@ -35,7 +35,6 @@ async def on_message(message):
 + '\n'+emojize(':point_right:')+"To see the 2021 cutoffs for MIT Banglore type '.cutoff'"
 + '\n'+emojize(':point_right:')+"To see the course overview and syllabus for any branch in MIT Banglore type '.syllabus'"
 + '\n'+emojize(':point_right:')+"To see the Btech 2021 Counselling Schedule type '.schedule'"
-+ '\n'+emojize(':point_right:')+"If you want to know about famous tourist attractions near MIT Banglore type '.tourist' " 
 + '\n'+emojize(':point_right:')+"To find out where MIT Banglore is located type '.location' ")
 
         
@@ -90,17 +89,6 @@ async def on_message(message):
         embed = discord.Embed()
         embed.description = "[Click here to view the Btech 2021 Common Counselling Schedule](https://counseling.manipal.edu/files/2021_Online_BTech_Common_Counseling_Schedule.pdf)"
         await message.channel.send(embed=embed)
-
-    #this gives some info related to tourist spots
-    elif ".tourist" == message.content.lower():
-        await message.channel.send(f"{message.author.name}, these are a few Tourist attraction near MIT Banglore :"
-+ '\n'+emojize(':ocean:')+"Yelahanka Kere : It is one of the largest lakes in the Bangalore North zone. It has two inlets, one outlet, a wet land and an island. Its upstream is linked to lakes like the Puttenahalli and Herohalli while in its downstream, we find the Jakkur lake. It is situated in the Nagawara Hebbal Valley."
-+ '\n'+emojize(':hibiscus:')+ "Cubbon Park(from MIT Bangalore 21km) : Spread over an area of 300 acres, Cubbon Park in the city of Bangalore is a major sightseeing attraction rich in green foliage. It is a green belt region of the city and is an ideal place for nature lovers and those seeking a calm atmosphere. Having been laid down by Lord Cubbon, the park is named so in his honour."
-+ '\n'+emojize(':rose:')+ "Lalbagh Botanical Garden( from MIT Bangalore 24 km ) : Lalbagh Botanical Garden or shortened Lalbagh, is an old botanical garden in Bengaluru, India."
-+ '\n'+emojize(':european_post_office:')+"Bangalore Palace(from MIT Bangalore 20km)) : Bangalore Palace is a royal palace located in Bangalore, Karnataka, India, in an area that was owned by Rev. J. Garrett, the first principal of the Central High School in Bangalore, now famous as Central College. The commencement of the construction of the palace is attributed to him."
- + '\n'+emojize(':small_blue_diamond:')+"ISKCON Temple(from MIT Banglore 23 km) : Sri Radha Krishna-chandra Temple is one of the largest Krishna Hindu temples in the world, affiliated with ISKCON Revival Movement. It is located at Rajajinagar, in North Bangalore in the Indian State of Karnataka."
- + '\n'+emojize(':small_red_triangle:')+" Tipu Sultan's Summer Palace(from MIT Bangalore 25 km) : Tipu Sultan's Summer Palace, in Bangalore, India, is an example of Indo-Islamic architecture and was the summer residence of the Mysorean ruler Tipu Sultan. "                                   
-+ '\n'+emojize(':hotel:')+ "Royal Orchid Resort & Convention Centre(from MIT Bangalore 11 km) : Located close to Manyata Tech Park and the Bangalore Airport is the Royal Orchid Resort & Convention Centre. It is spread over 8-acres of green area")
 
     # this gives location
     elif ".location" == message.content.lower():
