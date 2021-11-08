@@ -1,20 +1,15 @@
-
-#Few things to note
-# if you see a line that starts with # it means that the line is for you to read and for the program to ignore. the program wont read/run lines that start with a #
 #this bot will only read and send messages
 
 
-#if you already pip installed discord then you can import discord. what import does is it lets us use the discord module.
+#if you have already pip installed discord then you can import discord.
 import discord
 
 #if you remember in step 6.5 in readme i told you to save the bot's token now you can add the token here like this for example token = "Thetokenyoucopied". 
-#one thing to note is dont forget to enclose your token in sengle/double quotes
+#one thing to note is dont forget to enclose your token in single/double quotes
 
 token = 
 
 #BEFORE RUNNING THIS PROGRAM ADD A TOKEN ABOVE
-
-#if you don't know how to code just go to MAIN which is below in this code
 
 #Client intialised
 
@@ -54,6 +49,6 @@ client.run(token)
                                    
                                    
 #if you want to see an actual application on a discord bot see example.py in the my github repository from where you downloaded beginner.py it contains an example of a bot that
-# provides information regarding cutoff and syllabus and information regarding Manipal University Bangalore. fyi im a btech student from there. 
+# provides information regarding cutoff and syllabus and information regarding Manipal University Bangalore. 
         
 
